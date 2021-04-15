@@ -1,7 +1,7 @@
 pipeline {
    agent any
    tools { 
-        MavenBuild 'maven 3.6.3'          
+        maven 'MavenBuild 3.6.3'          
     }
    environment {
      // You must set the following environment variables
