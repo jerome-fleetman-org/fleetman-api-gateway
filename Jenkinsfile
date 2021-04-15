@@ -1,8 +1,6 @@
 pipeline {
    agent any
-   tools { 
-        maven 'MavenBuild 3.6.3'          
-    }
+   
    environment {
      // You must set the following environment variables
      // ORGANIZATION_NAME
