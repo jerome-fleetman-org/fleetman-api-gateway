@@ -3,6 +3,7 @@ pipeline {
    
    environment {
       PATH = "/usr/local/Cellar/maven/3.8.1/bin$PATH"
+      echo "PATH = ${PATH}"
      // You must set the following environment variables
      // ORGANIZATION_NAME
      // YOUR_DOCKERHUB_USERNAME (it doesn't matter if you don't have one)
