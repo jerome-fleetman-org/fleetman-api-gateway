@@ -1,8 +1,12 @@
 pipeline {
    agent any
+   tools {
+        maven 'Maven 3.6.3'
+        jdk 'jdk8'
+    }
    
    environment {
-      PATH = "/usr/local/Cellar/maven/3.8.1/bin$PATH"
+      //PATH = "/usr/local/Cellar/maven/3.8.1/bin$PATH"
       
      // You must set the following environment variables
      // ORGANIZATION_NAME
